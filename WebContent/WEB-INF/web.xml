@@ -3,6 +3,15 @@
   <display-name>SimpleServletProject</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
-
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>SimpleServlet</display-name>
+    <servlet-name>SimpleServlet</servlet-name>
+    <servlet-class>org.shian.jsp.SimpleServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SimpleServlet</servlet-name>
+    <url-pattern>/SimpleServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
